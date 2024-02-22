@@ -30,7 +30,7 @@ header > ul > li{
 header > ul > li:hover {
     cursor: pointer;
     text-decoration: underline;
-    color: rgb(128, 15, 47);
+    color: brown;
     transform: scale(1.15);
 }
 
