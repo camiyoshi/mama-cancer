@@ -46,7 +46,7 @@ main {
 }
 
 .taco-card {
-    background-color: rgb(255, 77, 109);
+    background-color: 164, 19, 60;
     border-radius: 1rem;
     overflow: hidden;
     width: 350px;
@@ -58,7 +58,7 @@ main {
 .taco-card:hover{
     background-color: brown;
     transform: translateY(-1rem);
-    box-shadow: 0.5rem 0.5rem rgb(53, 53, 53);
+    box-shadow: 0.5rem 0.5rem rgb(128, 15, 47);
 }
 
 .taco-card > .img-div{
