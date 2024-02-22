@@ -1,0 +1,88 @@
+:root{
+    background-color: rgb(33, 33, 33);
+    color: rgb(198, 196, 196);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    margin-bottom: 2rem;
+}
+h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+header > ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    margin: 0%;
+}
+
+header > ul > li{
+    transition: ease-out 250ms;
+}
+
+header > ul > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: brown;
+    transform: scale(1.15);
+}
+
+main {
+    margin: 0 3rem;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.taco-card {
+    background-color: rgb(75, 75, 75);
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 350px;
+    padding: 1rem 2rem 1.5rem;
+    transition: ease-in 250ms;
+    cursor: pointer;
+}
+
+.taco-card:hover{
+    background-color: brown;
+    transform: translateY(-1rem);
+    box-shadow: 0.5rem 0.5rem rgb(53, 53, 53);
+}
+
+.taco-card > .img-div{
+    display: flex;
+    justify-content: center;
+}
+
+.taco-card > h3 {
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 3rem;
+    margin-top: 4rem;
+    background-color: rgb(75, 75, 75);
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1rem;
+    margin: 0%;
+}
