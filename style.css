@@ -1,6 +1,6 @@
 :root{
-    background-color: rgb(33, 33, 33);
-    color: rgb(198, 196, 196);
+    background-color: rgb(250, 221, 225);
+    color: rgb(255, 93, 143);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,7 +30,7 @@ header > ul > li{
 header > ul > li:hover {
     cursor: pointer;
     text-decoration: underline;
-    color: brown;
+    color: rgb(128, 15, 47);
     transform: scale(1.15);
 }
 
@@ -46,7 +46,7 @@ main {
 }
 
 .taco-card {
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(255, 77, 109);
     border-radius: 1rem;
     overflow: hidden;
     width: 350px;
